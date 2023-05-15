@@ -1,0 +1,261 @@
+/* デフォルトのサイズ */
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #555555;
+    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO",sans-serif;
+}
+
+.wrapper_title{
+    background-image: url("back.png");
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* wave */
+/* タイトル */
+#title{
+    margin: 10% auto;
+    width: 50%;
+}
+
+canvas{
+    position:  absolute;
+    box-sizing: border-box;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper_contents{
+    background-image: url("back.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* 文字設定 */
+.text_gothic{
+    font-size: 14px;
+    line-height: 90%;
+}
+
+.word-break{
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+
+.color{
+    color: white;
+}
+
+.colorblue{
+    color: #20b2aa;
+}
+
+
+/* キャプション */
+.subtitle{
+    margin-top: 10%;
+}
+
+.subtitle2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.subtitle3{
+    text-align: center;
+}
+
+.wrapper_caption{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 3% auto;
+}
+
+
+.caption_left{
+    width: 50%;
+}
+
+.caption_right{
+    width: 50%;
+    text-align: center;
+}
+
+.caption{
+    margin: auto 10%;
+}
+
+.awai{
+    text-align: center;
+}
+
+#keyvisual{
+    width: 60%;
+    margin: 10% auto;
+}
+
+
+/* ビデオ */
+.awaivideo{
+    width: 500px;
+    margin: 10% auto;
+}
+
+.video{
+    text-align: center;
+    position: relative;
+    width: 100%
+}
+
+/* 作品紹介ページ */
+
+
+.contents{
+    height: 40%;
+    margin: 40px 0;
+    text-align: center;
+    width: 25%;
+}
+
+/* アクセスページ */
+.accesssection{
+    margin-bottom: 5%;
+}
+
+/* グーグルマップ */
+.map{
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    margin-top: 15px;
+    height: 0;
+    overflow: hidden;
+}
+
+
+
+
+/* タブレット用 */
+@media  screen and (max-width:830px) {
+    .wrapper{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #title{
+        text-align: center;
+        margin: 35% auto;
+        width: 80%;
+    }
+    
+    #keyvisual{
+        margin: 5% auto;
+        width: 70%;
+    }
+
+    .awai{
+        margin-top: 15%;
+        font-size: 25px;
+    }
+
+    .awaivideo{
+        width: 400px;
+        margin: 10% auto;
+    }
+
+    .subtitle2{
+        font-size: 50px;
+    }
+
+    .word-break{
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+}
+
+
+
+/* スマホ用 */
+@media screen and (max-width:500px) {
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #title{
+        text-align: center;
+        margin: 60% auto;
+        width: 80%;
+    }
+
+    .caption_left{
+        width: 80%;
+        margin: auto 10%;
+    }
+
+    .caption_right{
+        width: 90%;
+        text-align: center;
+        margin: auto 5%;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+
+    .awai{
+        font-size: 20px;
+    }
+
+    #keyvisual{
+        margin: 5% auto;
+        width: 50%;
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    .text_gothic{
+        text-align: center;
+    }
+
+    .awaivideo{
+        width: 250px;
+        margin: 10% auto;
+    }
+
+    .subtitle2{
+        font-size: 30px;
+    }
+
+    .word-break{
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+}
+
+
+
+
